@@ -1,0 +1,13 @@
+# List of Python dependencies
+pyrogram==2.0.106
+tgcrypto==1.2.5
+sqlalchemy==1.4.46
+alembic==1.9.2
+python-dotenv==0.21.0
+requests==2.28.1
+aiohttp>=3.9.0
+cryptography==41.0.7
+flask==2.3.3
+flask-cors==4.0.0
+pyjwt==2.8.0
+pypdf2==3.0.1

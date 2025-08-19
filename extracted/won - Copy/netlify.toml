@@ -1,0 +1,14 @@
+[build]
+  command = ""  # No build command needed for static site
+  publish = "web"  # Directory containing static files
+  functions = "functions"  # For serverless functions (if needed in the future)
+
+[dev]
+  command = "python serve_web.py"  # Command to run the local development server
+  port = 8000  # Port for the local development server
+
+# Redirects for single-page applications
+[[redirects]]
+  from = "/*"
+  to = "/device_registration.html"
+  status = 200
